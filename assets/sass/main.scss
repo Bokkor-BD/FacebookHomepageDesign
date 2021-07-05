@@ -1,0 +1,178 @@
+
+/* HEADER STYLE START */
+.header{
+    width: 100%;
+    height: 75px;
+    background: #3e5c9a;
+    color: #fff;
+    
+    .facebook_tittle{
+        padding: 10px 0;
+        h2{
+          font-weight: 700; 
+            font-size: 42px;
+        }
+    }
+    
+    .form-group{
+        padding: 5px 0;
+        margin-left: -20px;
+        
+        label{
+            font-size: 14px;
+            margin-bottom: 2px;
+        }
+        
+        input{
+            width: 100%;
+            height: 20px;
+            border-radius: 0;
+        }
+    }
+    
+    button{
+        background: #3f68aa;
+        margin-top: 33px;
+        border: none;
+        color: #fff;
+        font-size: 14px;
+        box-shadow: 0 0 1px #000;
+        margin-left: -20px;
+    }
+}
+/*HEADER STYLE END*/
+
+/*BODY STYLE START*/
+.body{
+    background: #eceff4;
+    padding: 30px 0;
+    
+    .title_1{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        h2{
+            font-size: 32px;
+            text-align: left;
+            font-weight: 600;
+        }
+    }
+    
+    .img_group{
+    img{
+        width: 50px;
+        height: 50px;
+        }
+        
+        p{
+            font-size: 14px;
+            margin-top: 15px;
+            margin-left: -40px;
+        }
+        
+        span{
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+    
+    .signup_text{
+        h1{
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+        
+        
+    }
+    
+    .Signup_form{
+        a{
+            text-decoration: none;
+            font-weight: 500;
+            color: #3a5a97;
+        }
+    }
+    
+    .radio_button{
+        label{
+            margin-right: 20px;
+        }
+    }
+    
+    .terms{
+        font-size: 14px;
+        a{
+            font-weight: 600;
+        }
+    }
+    
+    .submt_button{
+        width: 200px;
+        height: 45px;
+        background: #609d4d;
+        border-radius: 5px;
+        border-top: 1px solid #406b24;
+        border-bottom: 1px solid #49633c;
+        position: relative;
+        &:after{
+                position: absolute;
+                width:420px;
+                height: 2px;
+                content: '';
+                background: #dde0e5;
+                left: 0;
+                top: 60px;
+            }
+        
+        input{
+            background: none;
+            border: none;
+            padding: 10px 70px;
+            font-weight: 600;
+            color: #fff;
+        }
+    }
+    
+    .bootom_text{
+        margin-top: 30px;
+        span{
+            font-weight: 600;
+        }
+    }
+}
+/*BODY STYLE END*/
+
+
+/*FOOTER STYLE START*/
+.footer{
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    background: #fff;
+    
+    ul{margin: 0;
+        padding: 0;
+        
+        li{
+            list-style: none;
+            display: inline-block;
+            
+            
+        
+        &:last-child{
+                    border: 1px solid #ddd;
+                    padding: 0 5px;
+            font-size: 14px;
+                }
+            
+            a{
+                text-decoration: none;
+                color: #3a5a97;
+                font-size: 14px;
+                padding: 5px;
+            }
+                        
+        }
+    }
+    
+}
+/*FOOTER STYLE END*/
